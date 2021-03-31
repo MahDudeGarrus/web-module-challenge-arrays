@@ -145,9 +145,9 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(array, string){
-    array.splice(array.indexOf (string), 1);
-    return array;
+function removeFlavorByName(array, string){             // set parameters
+    array.splice(array.indexOf (string), 1);            // splice is removing 1 item based on the string that is being executed, which is identified with indexOf
+    return array;                                       // return the array with changes
 }
 
 
@@ -196,7 +196,11 @@ Use the getAverageWordLength function below to do the following:
 */
 
 function getAverageWordLength(array, string){
-    array.
+    for (let i = 0; i < array.length; i++){
+        if (array[i].includes(string)){
+            
+        }
+    }
 }
 
 
